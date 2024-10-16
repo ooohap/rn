@@ -1,0 +1,65 @@
+{
+  "name": "rn-dubai",
+  "private": false,
+  "version": "2.0.0",
+  "description": "RN Dubai - Landing Page for: ROWAD ALNAJAH For Food & Beverages Trading co. L.L.C ",
+  "author": "Hamdy Emad <hamdyyemad@aol.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdyyemad/rn-dubai.git"
+  },
+  "keywords": [
+    "React",
+    "Landing Page",
+    "tailwind"
+  ],
+  "bugs": {
+    "url": "https://github.com/hamdyyemad/rn-dubai/issues"
+  },
+  "homepage": "https://github.com/hamdyyemad/rn-dubai#",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "generate-sitemap": "node sitemap-generator.js"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@material-tailwind/react": "^2.1.4",
+    "@million/lint": "^1.0.10",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.4.6",
+    "million": "^3.1.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.16.0",
+    "sitemap": "^8.0.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.51.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animated": "^1.0.1",
+    "vite": "^4.4.5",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
