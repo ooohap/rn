@@ -1,4 +1,4 @@
-# Landing Page for RN-Dubai
+# RN-Dubai.com
 
 0. You need to clone the repo using git clone or using github desktop:
 
