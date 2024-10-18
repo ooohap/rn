@@ -30,7 +30,6 @@
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
     "@material-tailwind/react": "^2.1.4",
-    "@million/lint": "^1.0.10",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "emailjs-com": "^3.2.0",
     "formik": "^2.4.6",

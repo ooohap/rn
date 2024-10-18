@@ -4,9 +4,9 @@ export default function Section1() {
   return (
     <section
       id="hero"
-      className="relative h-full overflow-hidden bg-cover bg-center pb-20 before:block before:absolute before:bg-black before:h-full before:w-full before:top-0 before:left-0 before:z-10 before:opacity-30"
+      className="relative h-full overflow-hidden bg-cover bg-center pb-20 "
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/assets/home/hero.webp')`, // Add a gradient overlay with opacity
+        backgroundImage: `url('/assets/home/hero.webp')`, // Add a gradient overlay with opacity
 
         backgroundAttachment: "fixed", // Fix the background image
       }}
