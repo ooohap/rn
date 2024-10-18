@@ -16,7 +16,7 @@ export default function Section1() {
         className="absolute top-0 left-0 min-h-full ob"
         alt=""
       /> */}
-      <div className="md:static xl:static 2xl:static inset-x-1/2	md:inset-0 flex justify-center items-center mt-24 p-10 md:p-20">
+      <div className="md:static xl:static 2xl:static inset-x-1/2	md:inset-0 flex justify-center items-center mt-24 p-10 md:p-20 ">
         <div className="relative z-20 max-w-screen-lg mx-auto grid grid-cols-12 h-full items-center">
           <div className="col-span-6">
             <span className="uppercase text-white text-xs font-bold mb-2 block">
