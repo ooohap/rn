@@ -4,9 +4,9 @@ export default function Section1() {
   return (
     <section
       id="hero"
-      className="relative h-full overflow-hidden bg-cover bg-bottom pb-20 "
+      className="relative h-full overflow-hidden bg-auto bg-bottom md:bg-center pb-20 "
       style={{
-        backgroundImage: `url('/assets/home/hero-cut.png')`, // Add a gradient overlay with opacity
+        backgroundImage: `url('/assets/home/hero.png')`, // Add a gradient overlay with opacity
 
         backgroundAttachment: "fixed", // Fix the background image
       }}
