@@ -4,7 +4,7 @@ export default function Section1() {
   return (
     <section
       id="hero"
-      className="relative h-full overflow-hidden bg-auto bg-center md:bg-center pb-20 "
+      className="relative h-full overflow-hidden bg-cover bg-center pb-20 "
       style={{
         backgroundImage: `url('/assets/home/hero-new.jpg')`, // Add a gradient overlay with opacity
 
