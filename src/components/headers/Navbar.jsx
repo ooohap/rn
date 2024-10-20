@@ -40,9 +40,9 @@ export default function Navbar() {
 
   return (
     <div
-      className={`absolute flex justify-between items-center h-24 w-full mx-auto px-6 text-gray-200 top-0 left-0 right-0 z-50 transition-colors duration-300 bg-gradient-to-r from-[#0b3e27] to-[#197149]`}
+      className={`absolute flex justify-between items-center h-32 w-full mx-auto px-6 text-gray-200 top-0 left-0 right-0 z-50 transition-colors duration-300 bg-gradient-to-r from-[#0b3e27] to-[#197149]`}
     >
-      <Logo cssStyles={"text-2xl ml-3 font-bold tracking-widest	border p-1"} />
+      <Logo cssStyles={"text-5xl  font-bold	border-b-4 tracking-widest"} />
 
       {/* Desktop Navbar */}
       <ul className="hidden md:flex">
@@ -58,7 +58,7 @@ export default function Navbar() {
 
       {/* Mobile Navbar Toggle */}
       <div onClick={handleNav} className="block md:hidden z-50 cursor-pointer">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {nav ? <AiOutlineClose size={27} /> : <AiOutlineMenu size={27} />}
       </div>
 
       {/* Mobile Navbar */}
@@ -69,8 +69,11 @@ export default function Navbar() {
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
+        {/* text-4xl ml-3 font-bold */}
         <Logo
-          cssStyles={"w-full text-2xl font-bold text-gray-100 m-4 ml-0 mr-auto"}
+          cssStyles={
+            " text-4xl font-bold border-b-2 text-gray-100 m-4 ml-0 mr-auto"
+          }
         />
 
         {navItems.map((item) => (
