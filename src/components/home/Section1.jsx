@@ -1,12 +1,34 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Section1() {
+  const [backgroundImage, setBackgroundImage] = useState(
+    "/assets/home/hero-big.jpg"
+  );
+  const updateBackgroundImage = () => {
+    if (window.innerWidth <= 768) {
+      setBackgroundImage("/assets/home/hero-small.jpg");
+    } else {
+      setBackgroundImage("/assets/home/hero-big.jpg");
+    }
+  };
+
+  // Set background image on component mount and window resize
+  useEffect(() => {
+    updateBackgroundImage(); // Set initial background image
+    window.addEventListener("resize", updateBackgroundImage);
+
+    return () => {
+      window.removeEventListener("resize", updateBackgroundImage);
+    };
+  }, []);
+
   return (
     <section
       id="hero"
       className="relative h-full overflow-hidden bg-cover bg-center pb-20 "
       style={{
-        backgroundImage: `url('/assets/home/hero-new.jpg')`, // Add a gradient overlay with opacity
+        backgroundImage: `url('${backgroundImage}')`,
 
         backgroundAttachment: "fixed", // Fix the background image
       }}
