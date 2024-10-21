@@ -9,7 +9,7 @@ export default function Section1() {
     if (window.innerWidth <= 768) {
       setBackgroundImage("/assets/home/hero-small.jpg");
     } else {
-      setBackgroundImage("/assets/home/hero-big.jpg");
+      setBackgroundImage("/assets/home/hero-big.jpeg");
     }
   };
 
